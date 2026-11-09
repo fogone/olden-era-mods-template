@@ -1,0 +1,35 @@
+{
+  "schema": 1,
+  "id": "example.oldenera.hellobutton",
+  "name": {
+    "english": "Example: Hello button",
+    "russian": "Пример: кнопка «Привет»"
+  },
+  "description": {
+    "english": "An example mod: a Hello button in the main menu that opens the game's message box.",
+    "russian": "Мод-пример: кнопка «Привет» в главном меню открывает окно сообщения игры."
+  },
+  "author": "fogone",
+  "source": "https://github.com/fogone/olden-era-mods-template",
+  "tags": [
+    "ui"
+  ],
+  "screenshots": [],
+  "releases": [],
+  "packages": [
+    {
+      "version": "0.1.0",
+      "games": [
+        "0.82.08"
+      ],
+      "bepinex": "6.0.0-be.788",
+      "requires": [],
+      "files": [],
+      "archive": {
+        "name": "example.oldenera.hellobutton-0.1.0.zip",
+        "url": "https://github.com/fogone/olden-era-mods-template/releases/download/example.oldenera.hellobutton-v0.1.0/example.oldenera.hellobutton-0.1.0.zip",
+        "sha256": "4db4a3b34d773c1165b7dc4bcebd48dc6366abba0d66c196584ce9da4cd42f4d"
+      }
+    }
+  ]
+}

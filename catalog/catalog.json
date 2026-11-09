@@ -1,0 +1,15 @@
+{
+  "schema": 1,
+  "name": "Olden Era mods: examples",
+  "icon": null,
+  "mods": [
+    {
+      "id": "example.oldenera.hellobutton",
+      "meta": "https://raw.githubusercontent.com/fogone/olden-era-mods-template/main/catalog/mods/example.oldenera.hellobutton.json"
+    },
+    {
+      "id": "example.oldenera.seencounter",
+      "meta": "https://raw.githubusercontent.com/fogone/olden-era-mods-template/main/catalog/mods/example.oldenera.seencounter.json"
+    }
+  ]
+}

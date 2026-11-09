@@ -11,6 +11,12 @@ param([string[]]$Mods, [switch]$Publish, [switch]$Install, [string]$CatalogName,
 
 $ErrorActionPreference = 'Stop'
 $root = $PSScriptRoot
+# git writes its notes (line endings...) to stderr, which Windows PowerShell takes for an error under 'Stop'.
+function Git {
+    $ErrorActionPreference = 'Continue'
+    git @args 2>&1 | ForEach-Object { "$_" } | Where-Object { $_ -notmatch '^warning:' }
+    if ($LASTEXITCODE -ne 0) { throw "git $args failed" }
+}
 Set-Location $root
 $gameArg = @()
 if ($GameDir) { $gameArg = @("-p:GameDir=$GameDir") }
@@ -58,9 +64,8 @@ foreach ($folder in $folders) {
 }
 
 if ($Publish -and (git status --porcelain catalog)) {
-    git add catalog
-    git commit -q -m "Catalog: $(($folders | ForEach-Object Name) -join ', ')"
-    git push -q origin HEAD:main
-    if ($LASTEXITCODE -ne 0) { throw "git push failed" }
+    Git add catalog
+    Git commit -q -m "Catalog: $(($folders | ForEach-Object Name) -join ', ')"
+    Git push -q origin HEAD:main
     "The catalog: https://raw.githubusercontent.com/$repo/main/catalog/catalog.json (add it in the game: Mods -> Sources)"
 }

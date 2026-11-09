@@ -1,0 +1,41 @@
+{
+  "schema": 1,
+  "id": "example.oldenera.seencounter",
+  "name": {
+    "english": "Example: Seen counter",
+    "russian": "Пример: счётчик взглядов"
+  },
+  "description": {
+    "english": "An example mod on the core's events: a tooltip says how many times you looked at the thing since the map was loaded.",
+    "russian": "Мод-пример на событиях ядра: подсказка говорит, сколько раз вы смотрели на объект с загрузки карты."
+  },
+  "author": "fogone",
+  "source": "https://github.com/fogone/olden-era-mods-template",
+  "tags": [
+    "tooltip",
+    "map"
+  ],
+  "screenshots": [],
+  "releases": [],
+  "packages": [
+    {
+      "version": "0.1.0",
+      "games": [
+        "0.82.08"
+      ],
+      "bepinex": "6.0.0-be.788",
+      "requires": [
+        {
+          "id": "nobirds.oldenera.core",
+          "version": null
+        }
+      ],
+      "files": [],
+      "archive": {
+        "name": "example.oldenera.seencounter-0.1.0.zip",
+        "url": "https://github.com/fogone/olden-era-mods-template/releases/download/example.oldenera.seencounter-v0.1.0/example.oldenera.seencounter-0.1.0.zip",
+        "sha256": "17903b5b06523037c57d635187f590449561a5e8a90e1818217851e176da745b"
+      }
+    }
+  ]
+}
