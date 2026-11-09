@@ -9,7 +9,9 @@ What is here:
 ```
 mods/hello-button/        a mod without the core: a button in the main menu opening the game's message box
 mods/seen-counter/        a mod on the core's events: a line added to the map's tooltips, a choice in the settings
-catalog/                  your catalog (made by release.ps1 on the first release): the mod manager reads it
+catalog/                  the catalog (made by release.ps1): the mod manager reads it. This one is the examples'
+                          catalog; add fogone/olden-era-mods-template in Mods -> Sources to see it in the game
+OldenEraMods.slnx         the solution: open it in Visual Studio, Rider or VS Code, or dotnet build OldenEraMods.slnx
 Directory.Build.props     your name and repository, for every mod
 global.json               the SDK's version (Nobirds.OldenEra.Modding.Sdk on nuget.org)
 .config/dotnet-tools.json the catalog tool (oe-catalog)
@@ -19,7 +21,8 @@ release.ps1               build, try in the game, release
 ## 1. Start
 
 1. **Use this template** (the green button on GitHub) or fork it, and clone your repository.
-2. In `Directory.Build.props` put your name (`ModAuthor`) and your repository's address (`ModSource`).
+2. In `Directory.Build.props` put your name (`ModAuthor`) and your repository's address (`ModSource`), and delete
+   `catalog/` (it is this template's own catalog of the examples: yours is made on your first release).
 3. In each mod's csproj, change `example` in `ModId` to your name (`yourname.oldenera.hellobutton`), and the
    `AssemblyName` and `RootNamespace` to yours.
 

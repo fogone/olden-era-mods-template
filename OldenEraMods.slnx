@@ -1,0 +1,13 @@
+<Solution>
+  <Folder Name="/mods/">
+    <Project Path="mods/hello-button/HelloButton.csproj" />
+    <Project Path="mods/seen-counter/SeenCounter.csproj" />
+  </Folder>
+  <Folder Name="/Solution Items/">
+    <File Path="Directory.Build.props" />
+    <File Path="global.json" />
+    <File Path=".config/dotnet-tools.json" />
+    <File Path="release.ps1" />
+    <File Path="README.md" />
+  </Folder>
+</Solution>
