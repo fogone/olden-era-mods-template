@@ -1,0 +1,13 @@
+<Project Sdk="Nobirds.OldenEra.Modding.Sdk">
+  <!-- The mod on the core's events: a line in map tooltips. It needs the mod core (nobirds.oldenera.core), which
+       patches the game once for all mods; the manager installs it with this mod. -->
+  <PropertyGroup>
+    <AssemblyName>Example.SeenCounter</AssemblyName>
+    <RootNamespace>Example.SeenCounter</RootNamespace>
+    <ModId>example.oldenera.seencounter</ModId>
+    <ModName>Example: Seen counter</ModName>
+    <Version>0.1.0</Version>
+    <ModTags>tooltip;map</ModTags>
+    <ModRequires>nobirds.oldenera.core</ModRequires>
+  </PropertyGroup>
+</Project>

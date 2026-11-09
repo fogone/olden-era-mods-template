@@ -1,0 +1,11 @@
+{
+"tokens": [
+{"sid":"oe.seencounter.title","text":"Пример: счётчик взглядов"},
+{"sid":"oe.seencounter.description","text":"Мод-пример на событиях ядра: подсказка говорит, сколько раз вы смотрели на объект с загрузки карты."},
+{"sid":"oe.seencounter.Place","text":"Счётчик в подсказках"},
+{"sid":"oe.seencounter.Place.Bottom","text":"Внизу"},
+{"sid":"oe.seencounter.Place.Top","text":"Вверху"},
+{"sid":"oe.seencounter.Place.Off","text":"Не показывать"},
+{"sid":"oe.seencounter.Line","text":"Просмотров: {0}"}
+]
+}

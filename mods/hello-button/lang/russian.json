@@ -1,0 +1,11 @@
+{
+"tokens": [
+{"sid":"oe.hellobutton.title","text":"Пример: кнопка «Привет»"},
+{"sid":"oe.hellobutton.description","text":"Мод-пример: кнопка «Привет» в главном меню открывает окно сообщения игры."},
+{"sid":"oe.hellobutton.Shown","text":"Кнопка «Привет» в главном меню"},
+{"sid":"oe.hellobutton.Shown.desc","text":"Кнопка под «Загрузить». Выключено: кнопки нет."},
+{"sid":"oe.hellobutton.Button","text":"Привет"},
+{"sid":"oe.hellobutton.Hello","text":"Привет от мода! Это окно — самой игры, тексты — мода."},
+{"sid":"oe.hellobutton.Ok","text":"Хорошо"}
+]
+}

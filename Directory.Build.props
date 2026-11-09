@@ -1,0 +1,8 @@
+<Project>
+  <!-- What every mod of this repository shares: who made it and where its source is. They go into each mod's package
+       (manifest.json) and from there into the catalog. Change them to yours. -->
+  <PropertyGroup>
+    <ModAuthor>your-name</ModAuthor>
+    <ModSource>https://github.com/your-name/your-repo</ModSource>
+  </PropertyGroup>
+</Project>

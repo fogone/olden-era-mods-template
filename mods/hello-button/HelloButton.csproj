@@ -1,0 +1,12 @@
+<Project Sdk="Nobirds.OldenEra.Modding.Sdk">
+  <!-- The mod without the core: a button of its own in the game's main menu that opens the game's message box.
+       The SDK's version is in global.json. -->
+  <PropertyGroup>
+    <AssemblyName>Example.HelloButton</AssemblyName>
+    <RootNamespace>Example.HelloButton</RootNamespace>
+    <ModId>example.oldenera.hellobutton</ModId>   <!-- the BepInEx GUID; its last part names the texts: oe.hellobutton.* -->
+    <ModName>Example: Hello button</ModName>
+    <Version>0.1.0</Version>
+    <ModTags>ui</ModTags>
+  </PropertyGroup>
+</Project>

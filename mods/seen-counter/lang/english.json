@@ -1,0 +1,11 @@
+{
+"tokens": [
+{"sid":"oe.seencounter.title","text":"Example: Seen counter"},
+{"sid":"oe.seencounter.description","text":"An example mod on the core's events: a tooltip says how many times you looked at the thing since the map was loaded."},
+{"sid":"oe.seencounter.Place","text":"The counter in tooltips"},
+{"sid":"oe.seencounter.Place.Bottom","text":"At the bottom"},
+{"sid":"oe.seencounter.Place.Top","text":"At the top"},
+{"sid":"oe.seencounter.Place.Off","text":"Not shown"},
+{"sid":"oe.seencounter.Line","text":"Looked at: {0} times"}
+]
+}

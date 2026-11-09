@@ -1,0 +1,11 @@
+{
+"tokens": [
+{"sid":"oe.hellobutton.title","text":"Example: Hello button"},
+{"sid":"oe.hellobutton.description","text":"An example mod: a Hello button in the main menu that opens the game's message box."},
+{"sid":"oe.hellobutton.Shown","text":"Hello button in the main menu"},
+{"sid":"oe.hellobutton.Shown.desc","text":"The button under Load. Off: no button."},
+{"sid":"oe.hellobutton.Button","text":"Hello"},
+{"sid":"oe.hellobutton.Hello","text":"Hello from a mod! This box is the game's own, the texts are the mod's."},
+{"sid":"oe.hellobutton.Ok","text":"OK"}
+]
+}
